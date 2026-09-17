@@ -1,6 +1,6 @@
 {
   "name": "@ciliyun007/openspec-scaffold",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.",
   "type": "module",
   "homepage": "https://openspec-mvp.pages.dev/",
