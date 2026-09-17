@@ -15,13 +15,19 @@ The hard part is usually the empty page. This tool writes the four files with th
 ## Install
 
 ```bash
-npm install -g openspec-scaffold
+npm install -g @ciliyun007/openspec-scaffold
 ```
 
 or run it once:
 
 ```bash
-npx openspec-scaffold --feature user-login --requirement "Users can sign in with email and a one-time code, no password"
+npx @ciliyun007/openspec-scaffold --feature user-login --requirement "Users can sign in with email and a one-time code, no password"
+```
+
+The package is published to the GitHub Packages npm registry. To install from there, point the scope at it:
+
+```bash
+npm config set @ciliyun007:registry https://npm.pkg.github.com
 ```
 
 ## Usage
@@ -29,6 +35,8 @@ npx openspec-scaffold --feature user-login --requirement "Users can sign in with
 ```bash
 openspec-scaffold --feature <feature-name> --requirement "<one sentence>"
 ```
+
+(`openspec-scaffold` is the command name after a global install; the package name is `@ciliyun007/openspec-scaffold`.)
 
 Options:
 

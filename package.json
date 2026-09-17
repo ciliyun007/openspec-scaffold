@@ -1,8 +1,16 @@
 {
-  "name": "openspec-scaffold",
+  "name": "@ciliyun007/openspec-scaffold",
   "version": "1.0.0",
   "description": "Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.",
   "type": "module",
+  "homepage": "https://openspec-mvp.pages.dev/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciliyun007/openspec-scaffold.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "bin": {
     "openspec-scaffold": "tools/scaffold.mjs"
   },
