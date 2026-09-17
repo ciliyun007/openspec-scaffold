@@ -1,0 +1,6 @@
+﻿command,purpose,when_to_run,writes,source
+/opsx:explore,Understand the problem and the existing code before anything is written,First - before you have decided what to change,Nothing (read only),https://www.openspec.cn/
+/opsx:propose,Draft the change: proposal.md, specs/, design.md and tasks.md,After explore - when you can state what should change,openspec/changes/<feature>/{proposal.md,specs/,design.md,tasks.md},https://www.openspec.cn/
+/opsx:apply,Let the agent implement the tasks in tasks.md,After the draft is reviewed,Application code,https://www.openspec.cn/
+/opsx:verify,Check that the implementation matches the spec - not just that tests pass,After apply - before you call the change done,Verification result,https://www.openspec.cn/
+/opsx:archive,Archive the finished change,Last - once verify passes,Archived change,https://www.openspec.cn/

@@ -1,0 +1,7 @@
+﻿fact,value,source_url,checked_on,note
+GitHub stars,68.7k,https://www.openspec.cn/,2026-09-17,Figure shown on the official site on this date; changes over time - re-read the source before quoting it
+License,MIT,https://github.com/Fission-AI/OpenSpec,2026-09-17,Read from the repository
+Current version,v1.13.0,https://www.openspec.cn/,2026-09-17,Figure shown on the official site on this date
+New specs created,cited on the official site as roughly one every 2 seconds,https://www.openspec.cn/,2026-09-17,Marketing figure published by the project - not independently measured
+Supported agents,Claude Code, Codex, Cursor, GitHub Copilot, Gemini CLI, OpenCode and more,https://www.openspec.cn/,2026-09-17,Official site lists the full set; this row names the six shown alongside it
+Workflow,/opsx:explore -> propose -> apply -> verify -> archive,https://www.openspec.cn/,2026-09-17,Five slash commands

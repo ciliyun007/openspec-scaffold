@@ -1,0 +1,26 @@
+{
+  "name": "openspec-scaffold",
+  "version": "1.0.0",
+  "description": "Generate the four OpenSpec files (proposal / spec / design / tasks) for a change, from one sentence. No AI call, no network.",
+  "type": "module",
+  "bin": {
+    "openspec-scaffold": "tools/scaffold.mjs"
+  },
+  "files": [
+    "tools",
+    "data",
+    "docs"
+  ],
+  "keywords": [
+    "openspec",
+    "spec-driven-development",
+    "sdd",
+    "ai-coding-agent",
+    "scaffold",
+    "specification"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
